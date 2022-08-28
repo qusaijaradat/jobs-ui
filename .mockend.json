@@ -1,0 +1,73 @@
+{
+
+  "Job": {
+
+    "id": {
+
+      "int": {
+
+      "min":1,
+
+        "max":10000
+
+      }
+
+    },
+
+    "title": {
+
+      "loremWords": {
+
+        "minLength": 5,
+
+        "maxLength": 20
+
+      }
+
+    },
+
+    "description": {
+
+      "loremWords": {
+
+        "minLength": 5,
+
+        "maxLength": 20
+
+      }
+
+    },
+
+    "country": {
+
+    "int": {
+
+    "min": 0,
+
+    "max": 1000}
+
+    },
+
+    "city": {
+
+    "int": {
+
+    "min": 0,
+
+    "max": 1000}
+
+    },
+
+    "sector": {
+
+    "int": {
+
+    "min": 0,
+
+    "max": 1000}
+
+    }
+
+  }
+
+}
