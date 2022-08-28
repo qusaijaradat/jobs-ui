@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jobs Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="block-1">
+            <div class="block-item">
+                <div class="block-title">Sector</div>
+                <div class="block-sector">
+                    <div class="form-group">
+                        <input type="checkbox" id="vehicle1" name="sectorSection" value="sales"
+                            onclick="return ValidateSectorSelection();" />
+                        <label for="vehicle1"> sales</label>
+                    </div>
+                </div>
+            </div>
+            <div class="block-item">
+                <div class="block-title">Country</div>
+                <div class="block-country">
+                    <div class="form-group">
+                        <input type="checkbox" id="vehicle2" name="countrySection" value="Palestine"
+                            onclick="return ValidateCountrySelection();" />
+                        <label for="vehicle2"> Palestine</label>
+                    </div>
+                </div>
+            </div>
+            <div class="block-item">
+                <div class="block-title">City</div>
+                <div class="block-city">
+                    <div class="form-group">
+                        <input type="checkbox" id="vehicle3" name="citySection" value="beirut"
+                            onclick="return ValidateCitySelection();">
+                        <label for="vehicle3"> beirut</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-2">
+            <div class="search-block">
+                <input type="search" value="search" />
+                <div class="button">
+                    <a href="#popup1">Add New Job</a>
+                </div>
+            </div>
+            <div class="jobs-block">
+                <div class="job-item">
+                    <div class="item">
+                        <div class="image">
+                            <img src="./images/default.png" alt="default" />
+                        </div>
+                        <div class="content">
+                            <div class="job-title">job-title</div>
+                            <div class="city-country">city-country</div>
+                            <div class="sector">sector</div>
+                            <div class="description">description</div>
+                        </div>
+                        <div class="actions">
+                            <img src="./images/view.png" alt="view" />
+                            <img src="./images/delete.png" alt="delete" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <div class="title-popup">
+                <h2>Add New Job Post</h2>
+            </div>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <div class="form-block">
+                    <div class="form-group-input">
+                        <input type="text" name="jobTitle" value="" placeholder="Job title" />
+                    </div>
+                    <div class="form-group-input">
+                        <select name="country" placeholder="Country">
+                            <option value="Country" selected>Country</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-block">
+                    <div class="form-group-input">
+                        <select name="city" placeholder="City">
+                            <option value="City" selected>City</option>
+                        </select>
+                    </div>
+                    <div class="form-group-input">
+                        <input type="text" name="sector" value="" placeholder="Sector" />
+                    </div>
+                </div>
+                <textarea id="description" name="description" placeholder="description" rows="5" cols="30"></textarea>
+            </div>
+            <div class="popup-action">
+                <button class="close-popup" onclick="close">close</button>
+                <button class="add-new" onclick="addNew">Add New Job</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
