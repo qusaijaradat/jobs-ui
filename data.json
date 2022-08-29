@@ -1,0 +1,95 @@
+{
+  "city": [
+    {
+      "key": "100",
+      "countryId": "3",
+      "value": "Beirut"
+    },
+    {
+      "key": "101",
+      "countryId": "1",
+      "value": "Jenin"
+    },
+    {
+      "key": "102",
+      "countryId": "2",
+      "value": "Amman"
+    },
+    {
+      "key": "103",
+      "countryId": "4",
+      "value": "Al-Riyadh"
+    },
+    {
+      "key": "104",
+      "countryId": "4",
+      "value": "Al-Khobar"
+    },
+    {
+      "key": "105",
+      "countryId": "4",
+      "value": "Al-Madinah"
+    },
+    {
+      "key": "106",
+      "countryId": "2",
+      "value": "Al-Zarqa"
+    },
+    {
+      "key": "107",
+      "countryId": "2",
+      "value": "Al Batra"
+    },
+    {
+      "key": "108",
+      "countryId": "1",
+      "value": "Ramallah"
+    },
+    {
+      "key": "109",
+      "countryId": "2",
+      "value": "Jerash"
+    },
+    {
+      "key": "110",
+      "countryId": "1",
+      "value": "Gaza"
+    }
+  ],
+  "country": [
+    {
+      "key": "1",
+      "value": "Palestine"
+    },
+    {
+      "key": "2",
+      "value": "Jordan"
+    },
+    {
+      "key": "3",
+      "value": "Lebnoun"
+    },
+    {
+      "key": "4",
+      "value": "SaudiArabia"
+    }
+  ],
+  "sector": [
+    {
+      "key": "1",
+      "value": "Sales"
+    },
+    {
+      "key": "2",
+      "value": "Airlines"
+    },
+    {
+      "key": "3",
+      "value": "Administration"
+    },
+    {
+      "key": "4",
+      "value": "Computer software"
+    }
+  ]
+}
