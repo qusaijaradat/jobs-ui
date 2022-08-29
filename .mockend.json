@@ -1,73 +1,37 @@
 {
-
   "Job": {
-
     "id": {
-
       "int": {
-
       "min":1,
-
         "max":10000
-
       }
-
     },
-
     "title": {
-
       "loremWords": {
-
         "minLength": 5,
-
         "maxLength": 20
-
       }
-
     },
-
     "description": {
-
       "loremWords": {
-
         "minLength": 5,
-
         "maxLength": 20
-
       }
-
     },
-
     "country": {
-
     "int": {
-
     "min": 1,
-
-    "max": 4}
-
+    "max": 5}
     },
-
     "city": {
-
     "int": {
-
     "min": 100,
-
     "max": 111}
-
     },
-
     "sector": {
-
     "int": {
-
     "min": 1,
-
-    "max": 4}
-
+    "max": 5}
     }
-
   }
-
 }
